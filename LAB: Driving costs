@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class LabProgram {
+   public static void main(String[] args) {
+     double mPG;
+     double gDPG;
+    Scanner scnr = new Scanner(System.in);
+     
+     mPG = scnr.nextDouble();
+     gDPG = scnr.nextDouble();
+     
+     System.out.printf("%.2f ", ((20 / mPG) * gDPG ));
+     System.out.printf("%.2f ", ((75 / mPG) * gDPG));
+     System.out.printf("%.2f\n", ((500 / mPG) * gDPG));
+   }
+}
